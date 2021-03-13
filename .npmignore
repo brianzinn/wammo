@@ -1,0 +1,13 @@
+.nyc_output
+.vscode
+coverage
+node_modules
+src
+test
+dist/test
+.eslintignore
+.eslintrc.js
+.gitignore
+README.md
+tsconfig.json
+yarn.lock

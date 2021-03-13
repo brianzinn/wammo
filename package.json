@@ -1,0 +1,39 @@
+{
+  "name": "wammo",
+  "version": "0.0.1",
+  "description": "force directed physics engine",
+  "main": "dist/src/index.js",
+  "typings": "dist/src/index.d.ts",
+  "scripts": {
+    "prebuild": "eslint . --ext .ts,.tsx",
+    "build": "tsc",
+    "prestart": "tsc --build",
+    "start": "node .",
+    "unit-test": "mocha --require ts-node/register test/*.spec.ts --timeout=8000 --colors --exit",
+    "test": "npm run unit-test",
+    "test:coverage": "nyc --reporter=lcov --reporter=text-summary npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brianzinn/wammo.git"
+  },
+  "author": "Brian Zinn",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/brianzinn/wammo/issues"
+  },
+  "homepage": "https://github.com/brianzinn/wammo#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/mocha": "^8.2.1",
+    "@types/node": "^14.14.31",
+    "@typescript-eslint/eslint-plugin": "^4.16.1",
+    "@typescript-eslint/parser": "^4.16.1",
+    "eslint": "^7.21.0",
+    "eslint-config-prettier": "^8.1.0",
+    "mocha": "^8.3.0",
+    "nyc": "^15.1.0",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.2"
+  }
+}

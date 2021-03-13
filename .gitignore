@@ -1,0 +1,11 @@
+# dependencies
+node_modules
+
+# output
+dist
+
+# testing
+.nyc_output
+coverage
+
+yarn.lock
