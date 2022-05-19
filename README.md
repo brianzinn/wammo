@@ -10,6 +10,7 @@ https://en.wikipedia.org/wiki/Force-directed_graph_drawing
 
 This project has not yet been optimized - currently in a more academic state with aim for readability and ease to use different pluggable algorithms (even at runtime).
 
-Have a working babylon.js physics engine plugin that will be published soonish hopefully with a demo
+Mote details in Babylon forum:
+[forum link](https://forum.babylonjs.com/t/so-i-made-a-physics-engine/19270)
 
 Made with ♥ by Brian Zinn
